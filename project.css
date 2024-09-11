@@ -1,0 +1,729 @@
+.navbar{
+    box-shadow: 3px 3px 15px 0px;
+    position: static;
+    background-color: white;
+    display: flex;
+}
+.home ul{
+    display: flex;
+}
+.home ul li{
+    list-style: none;
+    padding: 15px;
+}
+.home ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.home ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.media ul{
+    display: flex;
+}
+
+.media ul li{
+    list-style: none;
+    padding: 15px;
+}
+.media ul li a{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.media ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.logo i{
+    font-size: 50px;
+    color: skyblue;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 49px;
+    font-weight: 300px;
+    text-transform: uppercase;
+}
+.btn button{
+    color: white;
+    background-color: skyblue;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background-color: black;
+
+}
+.home-page{
+    /* margin-top: 60px; */
+    padding: 90px;
+    background-image: url(./image/pool3.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.welcome h5{
+    color: darkblue;
+    
+}
+.welcome h1{
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.welcome p{
+    color: white;
+}
+.welcome button{
+    color: white;
+    padding: 10px 35px 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: darkblue;
+    margin-top: 60px;
+    transition: 0.5s;
+}
+.welcome button:hover{
+    background-color: black;
+    color: white;
+}
+
+.form{
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+.form input{
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 35px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.form button{
+    border: none;
+    background-color: darkblue;
+    width: 350px;
+    height: 35px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.form input::placeholder{
+    color: red;
+}
+
+.form button:hover{
+    background-color: black;
+    color: white;
+}
+
+.waterslide{
+    background-image: url(./image/pool6.avif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.River-rides{
+    background-image: url(./image/pool7.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Best-pool{
+    background-image: url(./image/pool5.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.waterslide h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.waterslide p{
+    color: white;
+}
+
+.waterslide button{
+    border: none;
+    color: white;
+    padding: 8px 40px 8px 40px;
+    background-color: skyblue;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+.waterslide button:hover{
+    background-color: black;
+}
+
+.River-rides h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.River-rides P{
+    color: white;
+}
+
+.River-rides button{
+    border: none;
+    color: white;
+    padding: 8px 40px 8px 40px;
+    background-color: skyblue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.River-rides button:hover{
+    background-color: black;
+}
+
+.Best-pool h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Best-pool p{
+    color: white;
+}
+
+.Best-pool button{
+    border: none;
+    color: white;
+    padding: 8px 40px 8px 40px;
+    background-color: skyblue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.Best-pool button:hover{
+    background-color: black;
+}
+
+.activities{
+   
+    padding-top: 70px;
+}
+
+.aboutwaterland h4{
+    color: skyblue;
+}
+.aboutwaterland h1{
+    font-weight: bold;
+    
+}
+.aboutwaterland p{
+    color: gray;
+}
+.food-drink i{
+    color: skyblue;
+    font-size: 50px;
+}
+.food-drink p{
+    color: gray;
+}
+.many i{
+    color: skyblue;
+    font-size: 50px;
+}
+.many p{
+    color: gray;
+}
+.price i{
+    color: skyblue;
+    font-size: 50px;
+}
+
+.price p{
+    color: gray;
+}
+
+.safety i{
+    color: skyblue;
+    font-size: 50px;
+}
+
+.safety p{
+    color: gray;
+}
+.items{
+    padding-top: 40px;
+}
+
+.img-1 img{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+ .likes{
+    background-color: skyblue;
+    border-radius: 20px;
+    text-align: center;
+}
+ .awwards{
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+ }
+
+ 
+ 
+.likes i{
+    color: white;
+    font-size: 40px;
+}
+.likes h3{
+    font-weight: bold;
+    color: white;
+}
+
+.likes h5{
+    color: white;
+}
+
+.awwards i{
+    color: white;
+    font-size: 40px;
+
+}
+.awwards h3{
+    color: white;
+    font-weight: bold;
+
+}
+
+.awwards h5{
+    color: white;
+}
+
+.ticket{
+    width: 100%;
+}
+
+.ticket h5{
+    color: skyblue;
+}
+.ticket h1{
+    font-weight: bold;
+}
+.ticket p{
+    color: gray;
+}
+
+.ticket i{
+    color: skyblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ticket button{
+    border: none;
+    border-radius: 20px;
+    background-color: skyblue;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    transition: 0.5s;
+}
+
+.ticket button:hover{
+    background-color: black;
+}
+
+.family-package{
+    background-color: #000000;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 40px;
+}
+.family-package p{
+    color: white;
+}
+.family-package h3{
+    color: skyblue;
+}
+.family-package i{
+    color: skyblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.family-package button{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: skyblue;
+    padding: 10px 30px 10px 30px;
+    transition: 0.5s;
+}
+.family-package button:hover{
+    background-color: skyblue;
+    color: white;
+}
+.basic-package{
+    background-color: skyblue;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 40px;
+}
+.ticket-booking{
+    padding: 40px;
+}
+.basic-package p{
+    color: white;
+}
+
+.basic-package i{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.basic-package button{
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    transition: 0.5s;
+}
+.basic-package button:hover{
+    background-color: white;
+    color: black;
+}
+
+.hr1{
+    border: 1.5px solid white;
+    width: 250px;
+}
+
+.attraction{
+    text-align: center;
+    background-image: url(./image/pool8.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+}
+.attraction p{
+    color: white;
+}
+.attraction h5{
+    color: rgb(7, 25, 180);
+    font-size: 30px;
+}
+.attraction h2{
+    color: white;
+    font-weight: bold;
+}
+.fun-pictures img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.fun-pictures{
+    margin-top: -100px;
+}
+.gallery{
+    text-align: center;
+}
+
+.our-gallery img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    transition: ease-in-out background-color 1s;
+
+}
+
+
+.our-gallery img:hover{
+    background-color: black;
+}
+.our-services{
+    background-image: url(./image/explore1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services{
+    text-align: center;
+    padding-top: 40px;
+}
+.services h5{
+    color: white;
+}
+.services h2{
+    color: white;
+}
+.services p{
+    color: white;
+}
+
+.main-table{
+    width: 700px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    
+}
+.monday, .saturday, .holiday{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.monday i span, .saturday i span, .holiday i span{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.saturday{
+    display: flex;
+    justify-content: space-between;
+}
+
+.holiday{
+    display: flex;
+    justify-content: space-between;
+}
+.bxs-time-five{
+    color: skyblue;
+}
+
+.house{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.house i{
+    color: skyblue;
+    font-size: 40px;
+}
+.spoon{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.fa-utensils{
+    color: skyblue;
+    font-size: 40px;
+}
+.door{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.fa-door-closed{
+    color: skyblue;
+    font-size: 40px;
+
+}
+.swimming{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.fa-water-ladder{
+    color: skyblue;
+    font-size: 40px;
+}
+.house-hold{
+    margin-top: 60px;
+    padding-bottom: 70px;
+}
+.blog-card img{
+    width: 100%;
+    height: 300px;
+    
+}
+.card-body{
+    background-color: whitesmoke;
+}
+
+.card-body h4:hover{
+    color: skyblue;
+}
+.card-body p{
+    color: grey;
+}
+.blog-btn{
+    background-color: rgb(29, 124, 208);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    transition: 0.5s;
+}
+.blog-btn:hover{
+    background-color: black;
+}
+.card-body{
+    padding: 20px;
+}
+.col-card{
+    border-radius: 20px;
+}
+
+.animate__animated  .animate__pulse{
+    --animate-duration: 2s;
+    --animation-delay: 3s;    
+  }
+
+
+  .card-img-top:hover{
+    animation: alternate;
+  }
+
+  .blog{
+    width: 600px;
+  }
+  .blog h5{
+    color: skyblue;
+  }
+  .blog h1{
+    font-weight: bold;
+  }
+  .profile-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 90px;
+  }
+ 
+.profile{
+    display: flex;
+    padding: 20px;
+}
+
+.main-profile{
+    background-color: rgb(10, 93, 216);
+    border-radius: 20px;
+    padding: 10px;
+}
+.profile-text{
+    color: white;
+}
+.name h6{
+    color: white;
+}
+.profile-media{
+    display: flex;
+  justify-content: center;
+}
+.md{
+    padding: 10px;
+}
+.main-profile-media{
+    background-color: whitesmoke;
+    display: flex;
+    border-radius: 40px;
+    padding: 1px;
+}
+.md a{
+    background-color: skyblue;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    transition: 0.9s;
+}
+.md a:hover{
+    background-color: black;
+}
+
+.icons{
+    color: white;
+    font-size: 20px;
+}
+.main-profile p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.our-team{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+.our-blog{
+    padding: 40px;
+
+}
+
+.hr-profile{
+    border: 1px solid white;
+}
+.testimonial-details{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.testimonal-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(170, 28, 28);
+}
+.testimonial-main{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+    padding: 50px;
+}
+.testimonial{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.testimonial h1{
+    color: white;
+    font-weight: bold;
+}
+.testimonial h5{
+    color: darkblue;
+    font-size: 30px;
+}
+.testimonial-cont{
+    padding: 40px;
+    background-image: url(./image/testmonial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-details h6{
+    color: white;
+}
+.main-details h5{
+    font-size: 25px;
+}
+
+
+
