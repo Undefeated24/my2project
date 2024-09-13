@@ -725,5 +725,99 @@
     font-size: 25px;
 }
 
+.info-waterland h4{
+    color: white;
+    margin-bottom: 20px;
+}
 
+.bx-swim{
+    color: skyblue;
+}
+.info-waterland h6{
+    color: white;
+}
+.info-cont{
+    background-color: rgb(3, 3, 41);
+    padding: 60px;
+}
 
+.info-icon{
+    color: skyblue;
+    font-size: 20px;
+}
+
+.quick-link h5{
+    color: white;
+    margin-bottom: 20px;
+}
+.quick-link a{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+.quick-link a:hover{
+    color: skyblue;
+}
+.fa-greater-than{
+    font-size: 10px;
+    font-weight: bold;
+}
+.support h5{
+    color: white;
+    margin-bottom: 20px;
+}
+.support a{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+.support a:hover{
+    color: skyblue;
+}
+.hour h4{
+    color: white;
+    margin-bottom: 20px
+}
+.days h6{
+    color: white;
+}
+.opening-time{
+    color: grey;
+}
+.payment-method ul{
+    display: flex;
+}
+.payment-method ul li{
+    padding: 10px;
+    list-style: none;
+}
+.payment-method ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+.fa-cc-visa{
+    color: red;
+    
+}
+
+.fa-cc-paypal{
+    color: skyblue;
+}
+
+.fa-cc-apple-pay{
+    color: goldenrod;
+}
+.fa-cc-mastercard{
+    color: brown;
+}
+.payment h6{
+    color: white;
+}
+
+.my-info h2{
+    font-family: monospace;
+}
+.my-info p{
+    font-family: monospace;
+}
